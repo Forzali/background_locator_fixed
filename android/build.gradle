@@ -26,13 +26,12 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-    consumerSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 21 /
+        minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
